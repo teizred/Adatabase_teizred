@@ -16,9 +16,9 @@ INSERT INTO skills (id, name) VALUES
 
 INSERT INTO resources (id, type, title, description, url, is_ada, theme_id) VALUES
 (1, 'guide', 'Introduction à React', 'Guide officiel React', 'https://react.dev', true, 1),
-(2, 'video', 'SQL pour débutants', 'Cours SQL complet', 'https://example.com/sql', false, 3),
-(3, 'exercice', 'Exercices JavaScript', 'Pratique JS', 'https://example.com/js', false, 1),
-(4, 'projet', 'Créer une API en node', 'Projet node', 'https://example.com/node', false, 2);
+(2, 'video', 'SQL pour débutants', 'Cours SQL complet', 'https://example.com/sql', true, 3),
+(3, 'exercice', 'Exercices JavaScript', 'Pratique JS', 'https://example.com/js', true, 1),
+(4, 'projet', 'Créer une API en node', 'Projet node', 'https://example.com/node', true, 2);
 
 
 INSERT INTO resources_skills (resource_id, skill_id) VALUES
